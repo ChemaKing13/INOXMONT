@@ -293,7 +293,7 @@ section[id]{scroll-margin-top:calc(var(--nav-h) + 8px)}
 .proofs.in li:nth-child(3){transition-delay:.2s}
 .proofs.in li:nth-child(4){transition-delay:.3s}
 .marquee{margin-top:clamp(70px,9vw,120px);border-block:1px solid var(--line);padding:22px 0;overflow:hidden;display:flex;gap:0}
-.marquee .label{flex:none;padding:0 26px 0 var(--gutter);font-family:var(--f-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);align-self:center;background:var(--canvas);position:relative;z-index:1;box-shadow:24px 0 24px var(--canvas)}
+.marquee .label{flex:none;padding:0 26px 0 var(--gutter);font-family:var(--f-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);align-self:stretch;display:flex;align-items:center;background:var(--canvas);position:relative;z-index:1;box-shadow:24px 0 24px var(--canvas)}
 .mq-move{display:flex;flex:none;width:max-content}
 .marquee.live .mq-move{animation:mq 70s linear infinite}
 @keyframes mq{to{transform:translate3d(-50%,0,0)}}
@@ -301,24 +301,6 @@ section[id]{scroll-margin-top:calc(var(--nav-h) + 8px)}
 .mq-track span{font-family:var(--f-display);font-weight:800;font-size:34px;line-height:1;color:var(--text-primary);padding:0 26px;white-space:nowrap}
 .mq-track i{width:8px;height:9px;flex:none;background:var(--green);clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);opacity:.9}
 
-/* faq */
-.faq-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(40px,6vw,100px);align-items:start}
-.faq-side{position:sticky;top:calc(var(--nav-h) + 40px)}
-.nudge{position:relative;margin-top:34px;padding:24px;border:1px solid var(--line);border-radius:6px;background:var(--panel);display:grid;gap:16px;max-width:420px}
-.nudge::before{content:"";position:absolute;inset:-1px;border-radius:6px;box-shadow:0 0 0 1px rgba(245,188,65,.45),0 0 34px rgba(245,188,65,.14);opacity:0;pointer-events:none}
-.faq.live .nudge::before{animation:pulse 5s var(--ease-io) -2s infinite}
-.nudge p{color:var(--text-primary);font-weight:500}
-.qa{border-top:1px solid var(--line-strong)}
-.qa details{border-bottom:1px solid var(--line-strong)}
-.qa summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;font-family:var(--f-display);font-weight:800;font-size:clamp(24px,2.1vw,30px);line-height:1.1;color:var(--text-primary);transition:color .35s var(--ease-out)}
-.qa summary::-webkit-details-marker{display:none}
-.qa summary:hover{color:var(--accent)}
-.qa summary .pm{position:relative;width:18px;height:18px;flex:none}
-.qa summary .pm::before,.qa summary .pm::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;background:var(--accent);transition:transform .45s var(--ease-out)}
-.qa summary .pm::after{transform:rotate(90deg)}
-.qa details[open] summary .pm::after{transform:rotate(0)}
-.qa .ans{padding:0 40px 26px 0;max-width:58ch}
-.qa details[open] .ans{animation:ansIn .5s var(--ease-out) both}
 @keyframes ansIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
 
 /* quote form */
@@ -387,8 +369,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:clamp(40p
   .nav-tel{margin-left:auto}
 }
 @media (max-width:900px){
-  .how-grid,.faq-grid,.quote-grid{grid-template-columns:1fr}
-  .faq-side{position:static}
+  .how-grid,.quote-grid{grid-template-columns:1fr}
   .foot{grid-template-columns:auto 1fr}
   .foot ul{grid-column:1/-1;text-align:left}
 }
@@ -458,7 +439,6 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <li><a href="#servicios">Servicios</a></li>
       <li><a href="#como-funciona">Cómo funciona</a></li>
       <li><a href="#confianza">Por qué nosotros</a></li>
-      <li><a href="#preguntas">Preguntas</a></li>
     </ul>
   </nav>
   <a class="nav-tel" href="tel:+525527316168">55 2731 6168</a>
@@ -704,41 +684,13 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
   </div>
 </section>
 
-<!-- 04 preguntas -->
-<section class="sec faq" id="preguntas" aria-labelledby="t-faq">
-  <div class="wrap faq-grid">
-    <div class="faq-side">
-      <header class="sec-head reveal" style="margin-bottom:0">
-        <div class="hoist">
-        <svg class="cable" aria-hidden="true" viewBox="0 0 28 64"><line class="wire" x1="14" y1="0" x2="14" y2="46" pathLength="1"/><path class="hook" d="M14 46 V52 C14 60 6 61 5 55" pathLength="1"/></svg>
-        <p class="tag"><b>04</b> Preguntas</p>
-      </div>
-        <h2 id="t-faq" class="h2">Lo que todos preguntan antes de vender.</h2>
-      </header>
-      <div class="nudge reveal-up">
-        <p>¿Tu pregunta no está aquí? Escríbenos y te contestamos.</p>
-        <a class="btn btn-wa" href="https://wa.me/525527316168?text=Hola%20InoxMont%2C%20tengo%20una%20pregunta%20sobre%20la%20compra%20de%20chatarra." target="_blank" rel="noopener">Pregunta por WhatsApp</a>
-      </div>
-    </div>
-    <div class="qa reveal-up">
-      <details><summary>¿Cuánto pagan por kilo?<span class="pm" aria-hidden="true"></span></summary><div class="ans"><p>Depende del tipo de metal y del precio del día. Mándanos fotos por WhatsApp y te damos una cotización.</p></div></details>
-      <details><summary>¿Cobran por recoger el material?<span class="pm" aria-hidden="true"></span></summary><div class="ans"><p>No. Si te compramos la chatarra, la recolección no tiene costo en CDMX y Estado de México.</p></div></details>
-      <details><summary>¿Cuándo me pagan?<span class="pm" aria-hidden="true"></span></summary><div class="ans"><p>Al momento. En efectivo o transferencia, el mismo día que cargamos tu material.</p></div></details>
-      <details><summary>¿Qué metales compran?<span class="pm" aria-hidden="true"></span></summary><div class="ans"><p>Fierro, acero, acero inoxidable, aluminio, cobre y bronce, entre otros. Si no estás seguro, mándanos una foto y te decimos.</p></div></details>
-      <details><summary>¿Pueden cargar piezas muy grandes o maquinaria?<span class="pm" aria-hidden="true"></span></summary><div class="ans"><p>Sí. Llegamos con grúa y equipo de maniobra para subir piezas pesadas al tráiler de forma segura.</p></div></details>
-      <details><summary>¿Hay una cantidad mínima?<span class="pm" aria-hidden="true"></span></summary><div class="ans"><p>Cuéntanos qué tienes y dónde está, y te decimos si podemos ir por él.</p></div></details>
-      <details><summary>¿Hasta dónde llegan?<span class="pm" aria-hidden="true"></span></summary><div class="ans"><p>Trabajamos en toda la Ciudad de México y el Estado de México.</p></div></details>
-    </div>
-  </div>
-</section>
-
-<!-- 05 cotiza -->
+<!-- 04 cotiza -->
 <section class="sec quote" id="cotiza" aria-labelledby="t-quote">
   <div class="wrap">
     <header class="sec-head reveal">
       <div class="hoist">
         <svg class="cable" aria-hidden="true" viewBox="0 0 28 64"><line class="wire" x1="14" y1="0" x2="14" y2="46" pathLength="1"/><path class="hook" d="M14 46 V52 C14 60 6 61 5 55" pathLength="1"/></svg>
-        <p class="tag"><b>05</b> Cotiza</p>
+        <p class="tag"><b>04</b> Cotiza</p>
       </div>
       <h2 id="t-quote" class="h2">Cotiza tu material hoy.</h2>
       <svg class="dim" viewBox="0 0 340 14" aria-hidden="true"><path d="M1 2 V12 M1 7 H339 M339 2 V12" pathLength="1"/></svg>
@@ -1063,7 +1015,7 @@ const revealIO = new IntersectionObserver(es => es.forEach(e => {
 $$('.reveal, .reveal-up, .cards, .proofs, .reveal-steps').forEach(el => revealIO.observe(el));
 
 const liveIO = new IntersectionObserver(es => es.forEach(e => e.target.classList.toggle('live', e.isIntersecting)), { threshold: 0 });
-$$('.cards, .marquee, .rig, .faq, .quote').forEach(el => liveIO.observe(el));
+$$('.cards, .marquee, .rig, .quote').forEach(el => liveIO.observe(el));
 
 document.addEventListener('visibilitychange', () => document.body.classList.toggle('paused', document.hidden));
 

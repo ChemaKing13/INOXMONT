@@ -13,9 +13,8 @@ Este documento refleja el sitio tal como quedó aprobado. Todo el texto se publi
 ### Pendiente de confirmar con el cliente
 1. Lista de metales que compran: fierro, acero, acero inoxidable, aluminio, cobre y bronce.
 2. Texto del permiso: "Unidades con permiso de Servicio Público Federal para transportar carga."
-3. Respuesta sobre cantidad mínima: "Cuéntanos qué tienes y dónde está, y te decimos si podemos ir por él."
-4. Lista de a quién le compran: talleres, fábricas, constructoras, demoliciones, herrerías, tornerías y particulares.
-5. Reseñas reales para agregar (no se inventaron testimonios).
+3. Lista de a quién le compran: talleres, fábricas, constructoras, demoliciones, herrerías, tornerías y particulares.
+4. Reseñas reales para agregar (no se inventaron testimonios).
 
 ### Datos confirmados por el cliente
 - Pago al momento (efectivo o transferencia).
@@ -109,9 +108,7 @@ Imagen: recorte 4:3 del cuadro final (`assets/hero-static.jpg`). En celular hori
 - Equipo para lo pesado. "Grúa, tráileres y operadores con experiencia en maniobras."
 - Cinta: "Compramos a" talleres, fábricas, constructoras, demoliciones, herrerías, tornerías, particulares.
 
-**04 · Preguntas** (`#preguntas`): "Lo que todos preguntan antes de vender." Siete preguntas (precio por kilo, costo de recolección, cuándo pagan, metales, piezas grandes, mínimo, zona). Tarjeta: "¿Tu pregunta no está aquí? Escríbenos y te contestamos." / "Pregunta por WhatsApp".
-
-**05 · Cotiza** (`#cotiza`): "Cotiza tu material hoy." / "Llena estos datos y se abre WhatsApp con tu mensaje listo. Agrega tus fotos y envíalo."
+**04 · Cotiza** (`#cotiza`): "Cotiza tu material hoy." / "Llena estos datos y se abre WhatsApp con tu mensaje listo. Agrega tus fotos y envíalo."
 - Campos: Tu nombre · ¿Dónde está? · ¿Qué material tienes? · Cantidad aproximada · ¿Necesitas grúa para cargar?
 - Botón: "Enviar por WhatsApp". Nota: "Tu mensaje llega a InoxMont cuando lo envías desde tu WhatsApp."
 - Éxito: "Listo." / "Se abrió WhatsApp con tu mensaje. Si no se abrió, escríbenos al 55 2731 6168."
@@ -120,6 +117,8 @@ Imagen: recorte 4:3 del cuadro final (`assets/hero-static.jpg`). En celular hori
 **Pie:** emblema, "Transportamos, Maniobramos, Reciclamos", teléfono, correo, Servicio Público Federal, "© 2026 InoxMont. Compra, recolección y reciclaje de metales."
 
 **En celulares:** barra fija abajo con "Cotiza por WhatsApp" y "Llamar".
+
+**Cambios posteriores a la aprobación (3 de octubre de 2026):** se eliminó la sección de preguntas y respuestas (con su enlace del menú y su estilo) y Cotiza pasó a ser la sección 04. La etiqueta "Compramos a" ahora cubre toda la altura de la cinta.
 
 ## 9. Imágenes de apoyo (Nano Banana Pro, 2K, 4:3, 8 créditos)
 
