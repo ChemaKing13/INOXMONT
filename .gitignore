@@ -1,11 +1,12 @@
-# Carpeta de trabajo local, no se publica
+# Carpetas de trabajo local, no se publican
 review/
 10k-websites/
-*.pdf
+docs/
 
-# macOS
+# Archivos locales
+LOGO OPCION 2.pdf
 .DS_Store
 
-# Node (si lo usas después)
+# Node (si lo usas)
 node_modules/
 .env
