@@ -1,0 +1,11 @@
+# Carpeta de trabajo local, no se publica
+review/
+10k-websites/
+*.pdf
+
+# macOS
+.DS_Store
+
+# Node (si lo usas después)
+node_modules/
+.env
