@@ -95,20 +95,16 @@ Imagen: recorte 4:3 del cuadro final (`assets/hero-static.jpg`). En celular hori
 3. Maniobras, carga y descarga. "Llegamos con grúa y operadores para subir, bajar y acomodar cargas pesadas con cuidado."
 4. Procesamiento y reciclaje. "Separamos, cortamos y preparamos el metal para que vuelva a fundirse y sea material nuevo."
 
-**02 · Cómo funciona** (`#como-funciona`): "Tres pasos. Lo pesado va por nuestra cuenta."
-1. Mándanos fotos. "Por WhatsApp, con el tipo de material y cuánto hay más o menos."
-2. Te cotizamos y agendamos. "Te damos precio y quedamos en el día y la hora de la recolección."
-3. Cargamos y te pagamos. "Llegamos con el equipo, cargamos todo y te pagamos al momento."
-- Momento interactivo "Haz la maniobra": botón "Mantén presionado para cargar". La grúa iza la paca y la pone en el hueco del tráiler. Si se suelta antes, regresa suave. Al terminar: botón "Carga lista", ayuda "Carga asentada en el tráiler.", los tres pasos se encienden y aparece "Así de fácil. Tú nos mandas fotos, nosotros hacemos lo pesado." con el botón "Cotiza tu material".
+**Haz la maniobra** (`#maniobra`, sin encabezado ni número, justo después de los servicios): tarjeta interactiva con ancho máximo de 820 px. Botón "Mantén presionado para cargar". La grúa iza la paca y la pone en el hueco del tráiler. Si se suelta antes, regresa suave. Al terminar: botón "Carga lista", ayuda "Carga asentada en el tráiler." y aparece "Así de fácil. Tú nos mandas fotos, nosotros hacemos lo pesado." con el botón "Cotiza tu material".
 
-**03 · Por qué InoxMont** (`#confianza`): "Llegamos, cargamos y pagamos. Sin vueltas."
+**02 · Por qué InoxMont** (`#confianza`): "Llegamos, cargamos y pagamos. Sin vueltas."
 - Pago al momento. "Efectivo o transferencia, el mismo día."
 - Recolección sin costo. "Si te compramos el material, el flete corre por nuestra cuenta."
 - Servicio Público Federal. "Unidades con permiso de Servicio Público Federal para transportar carga."
 - Equipo para lo pesado. "Grúa, tráileres y operadores con experiencia en maniobras."
 - Cinta: "Compramos a" talleres, fábricas, constructoras, demoliciones, herrerías, tornerías, particulares.
 
-**04 · Cotiza** (`#cotiza`): "Cotiza tu material hoy." / "Llena estos datos y se abre WhatsApp con tu mensaje listo. Agrega tus fotos y envíalo."
+**03 · Cotiza** (`#cotiza`): "Cotiza tu material hoy." / "Llena estos datos y se abre WhatsApp con tu mensaje listo. Agrega tus fotos y envíalo."
 - Campos: Tu nombre · ¿Dónde está? · ¿Qué material tienes? · Cantidad aproximada · ¿Necesitas grúa para cargar?
 - Botón: "Enviar por WhatsApp". Nota: "Tu mensaje llega a InoxMont cuando lo envías desde tu WhatsApp."
 - Éxito: "Listo." / "Se abrió WhatsApp con tu mensaje. Si no se abrió, escríbenos al 55 2731 6168."
@@ -118,7 +114,7 @@ Imagen: recorte 4:3 del cuadro final (`assets/hero-static.jpg`). En celular hori
 
 **En celulares:** barra fija abajo con "Cotiza por WhatsApp" y "Llamar".
 
-**Cambios posteriores a la aprobación (3 de octubre de 2026):** se eliminó la sección de preguntas y respuestas (con su enlace del menú y su estilo) y Cotiza pasó a ser la sección 04. La etiqueta "Compramos a" ahora cubre toda la altura de la cinta.
+**Cambios posteriores a la aprobación (3 de octubre de 2026):** se eliminó la sección de preguntas y respuestas (con su enlace del menú y su estilo) y Cotiza pasó a ser la sección 04 (hoy es la 03). La etiqueta "Compramos a" ahora cubre toda la altura de la cinta. El 5 de octubre se quitó el bloque del logo y la tarjeta de contacto junto al formulario (los datos siguen en el pie) y el formulario quedó solo, con ancho máximo de 820 px, para acortar la página en celular. Ese mismo día se quitó la sección "Cómo funciona" (encabezado "Tres pasos. Lo pesado va por nuestra cuenta." y los tres pasos) junto con su enlace del menú; solo quedó la tarjeta "Haz la maniobra". Las secciones quedaron 01 Lo que hacemos, 02 Por qué InoxMont y 03 Cotiza.
 
 ## 9. Imágenes de apoyo (Nano Banana Pro, 2K, 4:3, 8 créditos)
 
